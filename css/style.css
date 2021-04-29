@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.btn{
+    padding: 9px 21px;
+    border-radius: 20px;
+    background-color: lightblue;
+    color: white;
+    text-decoration: none;
+    /* display: inline-block; */
+}
+
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.container{
+    width: 80%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #255ee9;
+    line-height: 100px;
+
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+nav{
+    text-align: center;
+    width: calc(100% - 250px);
+    height: 100px;
+
+}
+
+li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+header .btn{
+    background-color: white;
+    color: black;
+}
+.jumbotron{
+    position: relative;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    color: white;
+
+}
+
+.jumbotron-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.jumbotron-box .btn{
+    margin-left: 35px;
+}
+.jumbotron-box h1{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.jumbotron-box p{
+    margin-bottom: 50px;
+    line-height: 1.7;
+    font-size: 25px;
+}
+
+.btn-white{
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+
+}
+
+.btn-black{
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+}
+.btn-black, .btn-white{
+    font-size: 20px;
+}
+
+.btn-white i{
+    padding-right: 10px;
+}
+
+
+/*debug*/
+.jumbotron .container{
+    /* background-color: green; */
+    /* border: 1px solid black; */
+}
+/* 
+header{
+    border: 1px solid black;
+} */
+
+.debug .row{
+    background-color: green;
+}
