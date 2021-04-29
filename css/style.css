@@ -117,3 +117,23 @@ nav li a{
     line-height: 1.7;
     font-size: 25px;
 }
+
+/* debug */
+
+#section1.debug{
+    height: 350px;
+    background-color: blueviolet;
+}
+#section2.debug{
+    height: 350px;
+    background-color: lightgrey;
+}
+#section3.debug{
+    height: 350px;
+    background-color: orange;
+}
+
+.wave svg{
+    color: lightgrey;
+    display: block;
+}
