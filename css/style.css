@@ -122,7 +122,7 @@ nav li a{
 
 #section1.debug{
     height: 350px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 #section2.debug{
     height: 350px;
@@ -130,10 +130,17 @@ nav li a{
 }
 #section3.debug{
     height: 350px;
-    background-color: orange;
+    /* background-color: orange; */
 }
-
+#section4.debug{
+    height: 350px;
+    background-color: #e4e4e4;
+}
 .wave svg{
     color: lightgrey;
     display: block;
 }
+ .wave img{
+    opacity: 0.1;
+    display: block;    
+ }
