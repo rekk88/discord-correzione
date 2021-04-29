@@ -32,19 +32,19 @@ body{
     /* display: inline-block; */
 }
 .btn-white{
-    padding: 12px 24px;
+    /* padding: 12px 24px; */
     background-color: white;
     color: black;
 
 }
 
 .btn-black{
-    padding: 12px 24px;
     background-color: black;
     color: white;
 }
 .btn-black, .btn-white{
     font-size: 20px;
+    padding: 12px 24px;
 }
 
 .btn-white i{
