@@ -3,36 +3,63 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.clearfix::after{
-    content: " ";
-    display: table;
-    clear: both;
-}
-.btn{
-    padding: 9px 21px;
-    border-radius: 20px;
-    background-color: lightblue;
-    color: white;
-    text-decoration: none;
-    /* display: inline-block; */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/*float*/
 .float-left{
     float: left;
 }
 .float-right{
     float: right;
 }
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/* buttons */
+.btn{
+    padding: 9px 21px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    /* display: inline-block; */
+}
+.btn-white{
+    padding: 12px 24px;
+    background-color: white;
+    color: black;
+
+}
+
+.btn-black{
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+}
+.btn-black, .btn-white{
+    font-size: 20px;
+}
+
+.btn-white i{
+    padding-right: 10px;
+}
+
+
+/*commons*/
 .container{
     width: 80%;
     max-width: 1170px;
     margin: 0 auto;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
+/* header */
 header{
     background-color: #255ee9;
     line-height: 100px;
@@ -59,11 +86,7 @@ nav li a{
     color: white;
     font-size: 18px;
 }
-
-header .btn{
-    background-color: white;
-    color: black;
-}
+/* jumbotron */
 .jumbotron{
     position: relative;
     background-image: url(../img/jumbo.png);
@@ -71,7 +94,6 @@ header .btn{
     background-position: center;
     min-height: 500px;
     color: white;
-
 }
 
 .jumbotron-box{
@@ -94,39 +116,4 @@ header .btn{
     margin-bottom: 50px;
     line-height: 1.7;
     font-size: 25px;
-}
-
-.btn-white{
-    padding: 12px 24px;
-    background-color: white;
-    color: black;
-
-}
-
-.btn-black{
-    padding: 12px 24px;
-    background-color: black;
-    color: white;
-}
-.btn-black, .btn-white{
-    font-size: 20px;
-}
-
-.btn-white i{
-    padding-right: 10px;
-}
-
-
-/*debug*/
-.jumbotron .container{
-    /* background-color: green; */
-    /* border: 1px solid black; */
-}
-/* 
-header{
-    border: 1px solid black;
-} */
-
-.debug .row{
-    background-color: green;
 }
